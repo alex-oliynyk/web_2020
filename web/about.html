@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Подорожуй</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <header class="header" id="header">
+
+    <div class="d-menu">
+      <div class="nav" id="nav">
+        <div class="nav-element">
+          <p class="logo" id="log-pod">Подорожуй</p>
+        </div>
+        <div class="nav-element">
+          <a href="index.html" class="nav-text" id="nav-text"><p>Головна</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="travel.html" class="nav-text" id="nav-text"><p>Подорожі</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="rest.html" class="nav-text" id="nav-text"><p>Відпочинок</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="eat.html" class="nav-text" id="nav-text"><p>Їжа</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="about.html" class="nav-text" id="nav-text"><p>Про мене</p></a>
+        </div>
+      </div>
+
+      <div class="social" id="social">
+        <div class="nav-element">
+          <img src="img/facebook.svg" height="40px">
+        </div>
+        <div class="nav-element">
+          <img src="img/twitter.svg" height="40px">
+        </div>
+        <div class="nav-element">
+          <img src="img/instagram.svg" height="40px">
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a class="menu-triger" onclick="showme()"></a>
+      <div class="menu-popup">
+        <a class="menu-close" onclick="hideme()"></a>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="travel.html">Подорожі</a></li>
+          <li><a href="rest.html">Відпочинок</a></li>
+          <li><a href="eat.html">Їжа</a></li>
+          <li><a href="about.html">Про мене</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+
+  <script type="text/javascript">
+    
+
+    function hideme(){
+      document.getElementsByClassName('menu-triger')[0].style.display="block";
+      document.getElementsByClassName('menu-popup')[0].style.display="none";
+    }
+    function showme(){
+      document.getElementsByClassName('menu-triger')[0].style.display="none";
+      document.getElementsByClassName('menu-popup')[0].style.display="block";
+    }
+  </script>
+
+  <div class="photo" id="photo">
+    <div><p class="photo-text" id="photo-text" align="center">Про мене</p></div>
+  </div>
+
+  <div class="container" id="container">
+    <div><p class="container-head" id="container-head" align="center">Мої подорожі</p></div>
+    <div class="wrapper">
+      <div class="table-wrap" id="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>№</th>
+              <th>Місце</th>
+              <th>Дата</th>
+              <th>Вартість, $</th>
+              <th>Оцінка</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Нью-Йорк</td>
+              <td>15.04.2018</td>
+              <td>2300</td>
+              <td>9,7</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>2</td>
+              <td>Венеція</td>
+              <td>17.08.2019</td>
+              <td>1700</td>
+              <td>8,3</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>3</td>
+              <td>Ізраїль</td>
+              <td>20.01.2018</td>
+              <td>3000</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>4</td>
+              <td>Альпи</td>
+              <td>29.01.2020</td>
+              <td>2400</td>
+              <td>7,8</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>5</td>
+              <td>Мексика</td>
+              <td>07.10.2019</td>
+              <td>2100</td>
+              <td>9,5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+
+
+
+    <div><p class="container-head" id="container-head" align="center">Коротко про мене</p></div>
+    <div>
+      <p class="container-text" id="container-text" align="justify">Фотограф, 23 роки, подорожую світом вже 4 роки, хочу поділитися з іншими своїми враженнями, куштую національні страви країн, куди приїжджаю, шукаю найкращі місця для відпочинку, розваг, а також ділюся враженнями проживання в найкращих готелях світу.</p>
+      <p class="container-text" id="container-text" align="justify">Проживаю в місті Львів, Україна. Навчаюся в Національному університеті "Львівська політехніка". Фотограіфєю почав цікавитись ще в ранньому віці, коли на 10-й День народження мені подарували перший цифровий фотоапарат, оскільки, на той момент я жив в селі і мене надихала тутешня природа. Перший час я щоранку і щовечора я біг надвір, щоб сфотографувати схід і захід сонця. В моєму портфоліо 10-річного хлопчика було багато фотографій в стилі макро, любив фотографувати комашок, маленькі рослини і камінчики.</p>
+      <p class="container-text" id="container-text" align="justify">В 19-річному віці вперше побував на морі, а до цього бував лише в Карпатах. З того моменту зрозумів, що мені цікаво відкривати для себе щось нове, подорожувати. Що фотографії морів, гір, міст-мегаполісів і пам'яток природи і близько не передають своєї величі. Тому я вирішив не тільки фотографувати, але й ділитися враженнями у вигляді тексту, щоб ви самі вирішували куди вам подорожувати.</p>
+      <p class="container-text" id="container-text" align="justify">Звертайтесь:</p>
+      <p class="container-text" id="container-text" align="justify">soliynyk011@gmail.com</p>
+    </div>
+
+    <form class="form">
+
+      <div class="form-text">
+        <h2>Реєстрація</h2>
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-input imya" placeholder=" ">
+        <label class="form-label">Ім'я</label>
+      </div>
+
+      <div class="form-group">
+        <input type="password" class="form-input password" placeholder=" ">
+        <label class="form-label">Пароль</label>
+      </div>
+
+      <div class="form-group">
+        <input type="password" class="form-input password-val" placeholder=" ">
+        <label class="form-label">Підтвердити пароль</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-input email" placeholder=" ">
+        <label class="form-label">E-mail</label>
+      </div>
+
+      <div class="form-group">
+        <input type='text' class="form-input phone" placeholder=" ">
+        <label class="form-label">Телефон</label>
+      </div>
+
+      <button class="form-button">Зареєструватись</button>
+      
+    </form>
+
+
+    <div class="footer" id="footer">
+    <div class="footer-top-txt"><p class="footer-top" id="about" align="center">Зв'язок зі мною:</p></div>
+    <div class="footer-el">
+      <p align="center" id="about-text">097-00-79-715</p>
+      <p align="center" id="about-text">soliynyk011@gmail.com</p>
+    </div>
+  </div>
+
+  </div>
+  
+  <script src='js.js'></script>
+  </body>
+</html>

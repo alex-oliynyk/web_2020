@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Подорожуй</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/travel.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <header class="header" id="header">
+
+    <div class="d-menu">
+      <div class="nav" id="nav">
+        <div class="nav-element">
+          <p class="logo" id="log-pod">Подорожуй</p>
+        </div>
+        <div class="nav-element">
+          <a href="index.html" class="nav-text" id="nav-text"><p>Головна</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="travel.html" class="nav-text" id="nav-text"><p>Подорожі</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="rest.html" class="nav-text" id="nav-text"><p>Відпочинок</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="eat.html" class="nav-text" id="nav-text"><p>Їжа</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="about.html" class="nav-text" id="nav-text"><p>Про мене</p></a>
+        </div>
+      </div>
+
+      <div class="social" id="social">
+        <div class="nav-element">
+          <img src="img/facebook.svg" height="40px">
+        </div>
+        <div class="nav-element">
+          <img src="img/twitter.svg" height="40px">
+        </div>
+        <div class="nav-element">
+          <img src="img/instagram.svg" height="40px">
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a class="menu-triger" onclick="showme()"></a>
+      <div class="menu-popup">
+        <a class="menu-close" onclick="hideme()"></a>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="travel.html">Подорожі</a></li>
+          <li><a href="rest.html">Відпочинок</a></li>
+          <li><a href="eat.html">Їжа</a></li>
+          <li><a href="about.html">Про мене</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+
+  <script type="text/javascript">
+    
+
+    function hideme(){
+      document.getElementsByClassName('menu-triger')[0].style.display="block";
+      document.getElementsByClassName('menu-popup')[0].style.display="none";
+    }
+    function showme(){
+      document.getElementsByClassName('menu-triger')[0].style.display="none";
+      document.getElementsByClassName('menu-popup')[0].style.display="block";
+    }
+  </script>
+
+
+  <div class="photo" id="photo">
+    <div><p class="photo-text" id="photo-text" align="center">Подорожі</p></div>
+  </div>
+
+  <div class="container" id="container">
+    <div><p class="container-head" id="container-head" align="center">Нью-Йорк</p></div>
+    <div><img src="img/new-york.jpg" width="100%" height="auto"></div>
+    <div>
+      <p class="container-text" id="container-text" align="justify">Величезний мегаполіс, найбільший економічний, політичний, науковий і культурний центр країни колись називався Новим Амстердамом.</p> 
+
+
+      <details>
+        <summary>Більше</summary>
+        <p class="container-text">Сьогоднішній Нью-Йорк – це панування моди, релігії, дуже швидкий темп життя, за яким якщо не встиг, то залишився за бортом цього киплячого, виключно американського життя. У Нью-Йорку знаходяться головні офіси багатьох світових корпорацій, фондові біржі, знамениті фінансові, наукові, культурні установи: штаб-квартира ООН, Художній Музей Метрополітен, «Карнеги-хол», «Метрополітен-опера», знамениті університети, бібліотеки. Приїжджати до Нью-Йорка краще в травні-червні або вересні-жовтні, коли в місті стоїть хороша погода – не жарко, не холодно, немає опадів.</p>
+        <p class="container-text" id="container-text" align="justify">Нью-Йорк – це просто скарбниця всіляких розваг. І якщо ви хоч раз не побували в найвідоміших розважальних закладах міста, напевно ви не житель Нью-Йорка. Парк розваг Adventureland користується величезною популярністю за зручність свого розташування та завдяки відмінним декораціям. Широко відомий Бродвейським театр є особливим видом театрального мистецтва, і є основою американської театральної культури. Театральний квартал на Манхеттені складається з 39 театрів.</p>
+        <p class="container-text" id="container-text" align="justify">Також, неодмінно варто відвідати:</p>
+        <p class="container-text" id="container-text" align="justify">- Нью-Йоркську публічну бібліотеку – найбільшу бібліотеку Нью-Йорка;</p>
+        <p class="container-text" id="container-text" align="justify">- Метрополітен-музей – також найбільший художній музей в світі;</p>
+        <p class="container-text" id="container-text" align="justify">- Емпайр-стейт-білдінг – найвища будівля Нью-Йорка;</p>
+        <p class="container-text" id="container-text" align="justify">- Рокфеллеровський центр - величезний офісний центр, який був побудований на Манхеттені за кошти фінансових магнатів Рокфеллеров у 1930-і роки;</p>
+        <p class="container-text" id="container-text" align="justify">- Таймс-Сквер— знаменита площа в центральній частині Манхеттена;</p>
+        <p class="container-text" id="container-text" align="justify">- Центральний парк – один з найбільших, найкрасивіших та найвідоміших парків не лише в США, але й в світі.</p>
+      </details>
+    </div>
+
+    <hr align="center" width="100%" size="1" color="#000000" />
+
+    <div><p class="container-head" id="container-head" align="center">Венеція</p></div>
+    <div><img src="img/venice.jpg" width="100%" height="auto"></div>
+    <div>
+      <p class="container-text" id="container-text" align="justify">Майже кожна людина у світі мріє потрапити у Венецію бодай раз у житті. Безсумнівно, це місто варте того, щоб його побачити. Туристи з усіх усюд вже більше 100 років насуваються туди, ніби армія Чінгісхана на середньовічну Європу. Для когось Венеція є кольоровою маскою, розбещеною туристами, але для багатьох – це споконвічна мрія.</p>
+      <details>
+        <summary>Більше</summary>
+        <p class="container-text" id="container-text" align="justify">Незалежно від того туристи ви, заробітчани чи транзитні пасажири, найзручнішим способом потрапити у Венецію з україни є авіапереліт з компанією WizAir (щоденно з Києва і у Пн, Ср, Пт зі Львова). Ціни на квитки починаються від 341 грн. в один бік і можуть сягати 2500+ грн. в залежності від дати вильоту і часу бронювання. Зазвичай, зі Львова можна знайти трохи дешевші квитки.</p>
+        <p class="container-text" id="container-text" align="justify">Після коротенького перельоту ви потрапите у Тревісо (аеропорт у одноіменному містечку, який обслуговує дешеві авіалінії регіону), звідки до міста-на-воді всього 30 км. Варто зазначити, що основним летовищем Венеції є аеропорт ім. Марко Поло.
+        </p>
+        <p class="container-text" id="container-text" align="justify">Автобус №6 з’єднує аеропорт з вокзалом у Тревісо, звідки можна доїхати на потязі у Венецію (2,70 Євро) або у будь-яке інше місце Італії. Також є регулярні прямі шатли у саму Венецію. Ціна 7 Євро в один і 13 Євро у обидва боки.</p>
+        <p class="container-text" id="container-text" align="justify">Під'їжджаючи до міста одразу стає зрозуміло, що ви потрапляєте на острів. Останні 4 км автобус чи поїзд просуватимуться вузесенькою косою.
+        Варіанти пересування Венецією
+         </p>
+        <p class="container-text" id="container-text" align="justify">Пішки. З цим жодних проблем немає, якщо, звісно, ви не збираєтеся виходити за межі самої Венеції і ви не маєте проблем з орієнтацією у просторі. Площа Марко Поло, яка знаходиться у протилежному кінці міста, всього за 2,5 км від вокзалів.</p>
+        <p class="container-text" id="container-text" align="justify">Вапоретто або Маршрутний теплохід є єдиним видом громадського транспорту у Венеції. Його численні маршрути сполучають між собою всі частини міста.Одноразовий проїзд коштує 6,50 Євро. Якщо ж у вас обмаль часу і збираєтеся багато чого побачити у самій Венеції та у її околицях, можете придбати денний проїзний квиток, який дійсний протягом 12 годин і коштує 16 Євро.
+        </p>
+        <p class="container-text" id="container-text" align="justify">Таксі на воді – це спосіб пересування для справжніх спецаґентів, тож якщо вам негайно потрібно виконати якесь спецзавдання, скажімо встигнути на потяг, літак чи автобус, можете сміливо обирати саме його.
+         </p>
+        <p class="container-text" id="container-text" align="justify">Готелів у Венеції, мабуть, більше ніж житлових будинків. Враховуючи, що це дуже одне з найпопулярніших туристичних місць у світі, не розраховуйте заплатити менше ніж 100 Євро за двомісний номер у дешевому готелі і не менше 30 Євро за ліжко у хостелі. Альтернативою може бути проживання на континенті - у Местре або Тревісо.
+         Що подивитися?</p>
+        <p class="container-text" id="container-text" align="justify">Якщо захочете відвідати все, то вам не вистачить тижня. Щоб найкраще відчути Венецію втечіть від гучних вулиць, заховайте свою карту подалі і просто заблукайте поміж вузеньких каналів і тихих вуличок.</p>
+        <p class="container-text" id="container-text" align="justify">Але, площу Сан-Марко і міст Ріалто маєте побачити обов'язково. Але окрім усім відомих місць, із зграями туристів та голубів, у Венеції є й інші, потаємні та не всім відомі місця, які варто відвідати. Наприклад, острови Мурано та Бурано.
+        </p>
+      </details>
+    </div>
+
+
+      <div class="footer" id="footer">
+        <div class="footer-top-txt"><p class="footer-top" id="about" align="center">Зв'язок зі мною:</p></div>
+        <div class="footer-el">
+      <p align="center" id="about-text">097-00-79-715</p>
+      <p align="center" id="about-text">soliynyk011@gmail.com</p>
+    </div>
+  </div>
+
+  </div>
+  
+  </body>
+</html>

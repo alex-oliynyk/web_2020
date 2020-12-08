@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Подорожуй</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <header class="header" id="header">
+
+    <div class="d-menu">
+      <div class="nav" id="nav">
+        <div class="nav-element">
+          <p class="logo" id="log-pod">Подорожуй</p>
+        </div>
+        <div class="nav-element">
+          <a href="index.html" class="nav-text" id="nav-text"><p>Головна</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="travel.html" class="nav-text" id="nav-text"><p>Подорожі</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="rest.html" class="nav-text" id="nav-text"><p>Відпочинок</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="eat.html" class="nav-text" id="nav-text"><p>Їжа</p></a>
+        </div>
+        <div class="nav-element">
+          <a href="about.html" class="nav-text" id="nav-text"><p>Про мене</p></a>
+        </div>
+      </div>
+
+      <div class="social" id="social">
+        <div class="nav-element">
+          <img src="img/facebook.svg" height="40px">
+        </div>
+        <div class="nav-element">
+          <img src="img/twitter.svg" height="40px">
+        </div>
+        <div class="nav-element">
+          <img src="img/instagram.svg" height="40px">
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a class="menu-triger" onclick="showme()"></a>
+      <div class="menu-popup">
+        <a class="menu-close" onclick="hideme()"></a>
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="travel.html">Подорожі</a></li>
+          <li><a href="rest.html">Відпочинок</a></li>
+          <li><a href="eat.html">Їжа</a></li>
+          <li><a href="about.html">Про мене</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+
+  <script type="text/javascript">
+    
+
+    function hideme(){
+      document.getElementsByClassName('menu-triger')[0].style.display="block";
+      document.getElementsByClassName('menu-popup')[0].style.display="none";
+    }
+    function showme(){
+      document.getElementsByClassName('menu-triger')[0].style.display="none";
+      document.getElementsByClassName('menu-popup')[0].style.display="block";
+    }
+  </script>
+
+  <div class="photo" id="photo">
+    <div><p class="photo-text" id="photo-text" align="center">Відпочинок</p></div>
+  </div>
+
+  <div class="container" id="container">
+    <div><p class="container-head" id="container-head" align="center">Середземне море</p></div>
+    <div><img src="img/sea.jpg" width="100%" height="auto"></div>
+    <div>
+      <p class="container-text" id="container-text" align="justify">Основна привабливість Ізраїлю в тому, що курортний сезон тут не закінчуються ніколи! Влітку туристи відпочивають на узбережжі Середземного моря і Галілейського озера, а зимою – на Червоному і Мертвому морях. Тому купити гарячі тури в Ізраїль зі Львова ви можете в той самий момент, коли вас осяє ця чудова думка.
+</p>
+      <details>
+        <summary>Більше</summary>
+        <p class="container-text" id="container-text" align="justify">Середземне море – найбільша курортна зона країни, не дивно, що найчастіше гарячі тури до Ізраїлю зі Львова обирають саме сюди. Від кількості достойних середземноморських курортів очі розбігаються: Тель-Авів, Бат-Ям, Ашдод, Нетанія, Герцлія і Ашкелон та інші.</p>
+        <p class="container-text" id="container-text" align="justify">Звичайно, найпопулярніший – Тель-Авів. Прекрасні, чудово обладнані пляжі, багатий вибір розваг, комфортабельні готелі роблять це місто світовим курортом. Однак відпочинок на Середземному морі – це не лише Тель-Авів. Ми впевнені, що вас підкорить прекрасна Хайфа з її дивовижними садами та кораловими рифами. Або вам сподобається комфорт Нетанії (звідти до відомих пам’яток рукою подати).</p>
+        <p class="container-text" id="container-text" align="justify">До речі, візьміть на замітку, найкращий пляж регіону – Дор, розміщений трошки північніше Кесарії.</p>
+        <p class="container-text" id="container-text" align="justify">Ізраїль має три великі курортні зони: Середземне, Червоне та Мертве море, плюс Галілейське озеро, яке теж майже море. В пік сезону на всіх узбережжях відкрито близько 142 пляжів. Звичайно, найбільше їх на Середземному морі (87), далі Галілейське озеро (28), Мертве море (22) і найменше пляжів на Червоному морі (лише 5), зате там найтепліше і майже не буває дощів.
+        </p>
+        <p class="container-text" id="container-text" align="justify">Що може зіпсувати найрозкішніший пляжний відпочинок? Ні, не забутий вдома купальник, а погода))). Тому перш, ніж пакувати валізи, розберемось з ізраїльським кліматом.</p>
+        <p class="container-text" id="container-text" align="justify">Найтепліше і найсухіше в Ейлаті, тут дощ більше рідкість, ніж звичне природне явище. Море завжди тепле (+22-26С) і спокійне, адже від вітрів його захищають природні скелі. А от приїжджати сюди влітку не радимо температура повітря легко перескакує позначку +40С.</p>
+        <p class="container-text" id="container-text" align="justify">На Мертве море краще їхати ранньою весною або пізньою осінню, тоді температура повітря і води однаково комфортні.
+        </p>
+        <p class="container-text" id="container-text" align="justify">А от Середземне море і Галілейське озеро чудово підійдуть для відпочинку в літні місяці.</p>
+        <p class="container-text" id="container-text" align="justify">Середземне море – найбільша курортна зона країни, не дивно, що найчастіше гарячі тури до Ізраїлю зі Львова обирають саме сюди. Від кількості достойних середземноморських курортів очі розбігаються: Тель-Авів, Бат-Ям, Ашдод, Нетанія, Герцлія і Ашкелон та інші.
+        </p>
+        <p class="container-text" id="container-text" align="justify">Звичайно, найпопулярніший – Тель-Авів. Прекрасні, чудово обладнані пляжі, багатий вибір розваг, комфортабельні готелі роблять це місто світовим курортом. Однак відпочинок на Середземному морі – це не лише Тель-Авів. Ми впевнені, що вас підкорить прекрасна Хайфа з її дивовижними садами та кораловими рифами. Або вам сподобається комфорт Нетанії (звідти до відомих пам’яток рукою подати).</p>
+        <p class="container-text" id="container-text" align="justify">До речі, візьміть на замітку, найкращий пляж регіону – Дор, розміщений трошки північніше Кесарії.</p>
+      </details>
+    </div>
+
+    <hr align="center" width="100%" size="1" color="#000000" />
+
+    <div><p class="container-head" id="container-head" align="center">Альпи</p></div>
+    <div><img src="img/alps.jpg" width="100%" height="auto"></div>
+    <div>
+      <p class="container-text" id="container-text" align="justify">Французькі Альпи - це нескінченні схили, сяючі сріблом, прекрасно розвинена інфраструктура і затишні шале, що немов зійшли із сторінок дитячих казок. Вас чекають знамениті гірськолижні регіони, що колись приймали олімпійських чемпіонів : величні Три Долини, легендарний Эспас-Килли, дивовижний Гран Масив. Насолоджуйтеся пухнастим снігом та континентальним кліматом і відкривайте справжнє значення французького art de vivre.</p>
+        <details>
+          <summary>Більше</summary>
+          <p class="container-text" id="container-text" align="justify">Для відпочинку я обрав Les Arcs Panorama і не пошкодував.</p>
+          <p class="container-text" id="container-text" align="justify">Приголомшливі види, різноманітні траси, висока кухня та спорт без кордонів. Ви готові зануритися в преміальний відпочинок на схилах Альп? Новий сімейний курорт Les Arcs Panorama розташований в мальовничому регіоні Парадіскі, який вважається однією з найбільших гірськолижних зон у світі. Спробуйте бігові та гірські лижі, поніжтесь у відкритому басейні з підігрівом і побалуйте свою сім'ю справжніми альпійськими делікатесами. Ідеальні зимові канікули виглядають саме так!</p>
+          <p class="container-text" id="container-text" align="justify">Гірськолижний регіон Paradiski (Парадіскі), SPA від Cinq Mondes, хамам і басейн, джакузі, сімейний ресторан Bread & Co, ексклюзивний простір 5Т - все це є у Les Arcs Panorama.
+          </p>
+      </details>
+    </div>
+      <div class="footer" id="footer">
+    <div class="footer-top-txt"><p class="footer-top" id="about" align="center">Зв'язок зі мною:</p></div>
+    <div class="footer-el">
+      <p align="center" id="about-text">097-00-79-715</p>
+      <p align="center" id="about-text">soliynyk011@gmail.com</p>
+    </div>
+  </div>
+
+  </div>
+
+  </body>
+</html>
